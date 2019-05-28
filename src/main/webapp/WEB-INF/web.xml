@@ -1,0 +1,42 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>VerificationServle</servlet-name>
+        <servlet-class>com.cn.servlet.VerificationServle</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImageMaskServlet</servlet-name>
+        <servlet-class>com.cn.servlet.ImageMaskServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistServlet</servlet-name>
+        <servlet-class>com.cn.servlet.RegistServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.cn.servlet.HomeServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>VerificationServle</servlet-name>
+        <url-pattern>/verificationServle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImageMaskServlet</servlet-name>
+        <url-pattern>/imageMaskServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistServlet</servlet-name>
+        <url-pattern>/registServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/homeServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
